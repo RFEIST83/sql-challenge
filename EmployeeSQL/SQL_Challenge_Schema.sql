@@ -26,7 +26,6 @@ CREATE TABLE employees(
     FOREIGN KEY (emp_title_id) REFERENCES titles(title_id)
 );
 
--- below 3 tables need to be created after the above 3
 CREATE TABLE dept_emp(
 	emp_no INT NOT NULL,
 	dept_no VARCHAR(4) NOT NULL,
